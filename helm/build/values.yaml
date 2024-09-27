@@ -1,0 +1,15 @@
+app:
+  name: stanaka-dev-wheres-teddy-app
+  namespace: stanaka-dev
+  cluster: .apps.sandbox-m4.g2pi.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/devhub-tanaka/stanaka-dev-wheres-teddy
+  org: devhub-tanaka
+  name: stanaka-dev-wheres-teddy
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: stanaka-dev/wheres-teddy-app
+  tag: latest
